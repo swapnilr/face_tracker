@@ -1,6 +1,7 @@
 # Face Tracker
 
 Face detector and tracker:
+
 1. Finds faces using a cascade filter
 2. Tracks faces using a particle filter
 
@@ -12,15 +13,17 @@ python cleanup.py output
 ffmpeg -i output2/Intro-%04d.png -c:v libx264 -pix_fmt yuv420p out.mp4
 ```
 
-##Outputs
-###Intro.mp4
-* (Original)[https://youtu.be/zCPZ4DYTnk8]
-* (Tracking Only)[https://youtu.be/VSTTC0IQHnE]
-* (Detection & Tracking)[https://youtu.be/MfTe8e61GKI]
-###08-01.avi
-* (Original)[https://youtu.be/n6piIxmyNk0]
-* (Tracking Only)[https://youtu.be/lzdnHCHfhH0]
-* (Detection & Tracking)[https://youtu.be/5JR1CSldIyA]
+## Outputs
+
+### Intro.mp4
+* [Original](https://youtu.be/zCPZ4DYTnk8)
+* [Tracking Only](https://youtu.be/VSTTC0IQHnE)
+* [Detection & Tracking](https://youtu.be/MfTe8e61GKI)
+
+### 08-01.avi
+* [Original](https://youtu.be/n6piIxmyNk0)
+* [Tracking Only](https://youtu.be/lzdnHCHfhH0)
+* [Detection & Tracking](https://youtu.be/5JR1CSldIyA)
 
 ##Credits
 08-01.avi downloaded from - http://www.videorecognition.com/db/video/faces/cvglab/
